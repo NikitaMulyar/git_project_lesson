@@ -1,11 +1,6 @@
-from db import file
+from math import cos, sin
 
 
-def print_hi(name):
-    print(f'Hi, {name}! Aboba')  # Press ⌘F8 to toggle the breakpoint.
+print(cos(50))
 
-
-r = input()
-
-if __name__ == '__main__':
-    print_hi('PyCharm 999')
+print(sin(50))
